@@ -1,0 +1,28 @@
+{
+  "name": "msbe",
+  "version": "1.0.0",
+  "description": "Backend for social media application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARUNKUMARMARU/msbe.git"
+  },
+  "author": "Arunkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARUNKUMARMARU/msbe/issues"
+  },
+  "homepage": "https://github.com/ARUNKUMARMARU/msbe#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3"
+  }
+}
